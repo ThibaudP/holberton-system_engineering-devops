@@ -77,3 +77,7 @@ This script creates the ./welcome/to/holberton tree.
 ## 18-commas
 
 This script lists all files and directory in the current dir, separated by commas.
+
+## holberton.mgc
+
+This file contains the filetype for Holberton files.
