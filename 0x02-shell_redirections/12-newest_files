@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -vpt | grep -v /
+ls -pt | grep -v /
