@@ -1,4 +1,4 @@
-# Shell Basics Project
+# 0x00-shell_basics
 The basics of the Bash shell.
 
 ## Learning Objectives
