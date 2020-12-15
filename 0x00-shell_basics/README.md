@@ -1,83 +1,57 @@
 # Shell Basics Project
+The basics of the Bash shell.
 
-This project covers the basics of the Bash shell.
+## Learning Objectives
+At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-## 0-current-working-directory
+### General
+* What does RTFM mean?
+* What is a Shebang
+* What is the Shell
+* What is the shell
+* What is the difference between a terminal and a shell
+* What is the shell prompt
+* How to use the history (the basics)
 
-This script prints the absolute path of the current working dir.
+### Navigation
+* What do the commands or built-ins cd, pwd, ls do
+* How to navigate the filesystem
+* What are the . and .. directories
+* What is the working directory, how to print it and how to change it
+* What is the root directory
+* What is the home directory, and how to go there
+* What is the difference between the root directory and the home directory of the user root
+* What are the characteristics of hidden files and how to list them
+* What does the command cd - do
 
-## 1-listit
+### Looking Around
+* What do the commands ls, less, file do
+* How do you use options and arguments with commands
+* Understand the ls long format and how to display it
+* A Guided Tour
+* What does the ln command do
+* What do you find in the most common/important directories
+* What is a symbolic link
+* What is a hard link
+* What is the difference between a hard link and a symbolic link
 
-This script lists the contents of the current working dir.
+### Manipulating Files
+* What do the commands cp, mv, rm, mkdir do
+* What are wildcards and how do they work
+* How to use wildcards
+### Working with Commands
+* What do type, which, help, man commands do
+* What are the different kinds of commands
+* What is an alias
+* When do you use the command help instead of man
 
-## 2-bring_me_home
+### Reading Man Pages
+* How to read a man page
+* What are man page sections
+* What are the section numbers for User commands, System calls and Library functions
 
-This script changes the working directory to the user's home directory.
+### Keyboard Shortcuts for Bash
+* Common shortcuts for Bash
 
-## 3-listfiles
-
-This script lists the current dir contents in a long format.
-
-## 4-listmorefiles
-
-This script lists the current dir contents, including hidden files and folders, using the long format.
-
-## 5-listfilesdigitonly
-
-This script lists the current dir contents (incl. hidden files) with digits only for user and group ID.
-
-## 6-firstdirectory
-
-This script creates the /tmp/holberton/ directory.
-
-## 7-movethatfile
-
-This script moves the file betty from /tmp/ to /tmp/holberton/
-
-## 8-firstdelete
-
-This script deletes the botty file in /tmp/holberton/
-
-## 9-firstdirdeletion
-
-This script deletes the /tmp/holberton/ dir.
-
-## 10-back
-
-This script changes the current working dir to the previous one.
-
-## 11-lists
-
-This script lists all files in the current directory, then the parent directory, then the /boot directory.
-
-## 12-file_type
-
-This script prints the type of /tmp/iamafile
-
-## 13-symbolic_link
-
-This script creates a sym link __ls__ for /bin/ls, located in the current dir
-
-## 14-copy_html
-
-This script copies all HTML files from the current dir to the parent dir, but only if they didn't already exist or were newer.
-
-## 15-lets_move
-
-This script moves all files beginning with an uppercase letter to /tmp/u/
-
-## 16-clean_emacs
-
-This script deletes all \*~ emacs temp files.
-
-## 17-tree
-
-This script creates the ./welcome/to/holberton tree.
-
-## 18-commas
-
-This script lists all files and directory in the current dir, separated by commas.
-
-## holberton.mgc
-
-This file contains the filetype for Holberton files.
+### LTS
+* What does LTS mean?
