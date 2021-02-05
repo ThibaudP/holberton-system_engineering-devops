@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # This script displays every minute of every hour of a day
 hr=0
-while [ $hr -le 24 ]; do
+while [ $hr -le 12 ]; do
 	echo "Hour: $hr"
     min=0
     while [ $min -lt 60 ]; do
