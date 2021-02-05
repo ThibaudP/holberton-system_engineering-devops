@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script gives information about a file passed as argument
+# This script gives information about the holbertonschool file
 file="holbertonschool"
 if [ -e $file ]; then
 	echo "$file file exists"
