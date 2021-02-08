@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This script displays all processes and ASCII hierarchy
+ps auxf
