@@ -13,3 +13,5 @@ Each subfolder of this repo contains one singular project comprised of multiple 
 * **[0x04-loops_conditions_and_parsing](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x04-loops_conditions_and_parsing)**: Loops, conditions & parsing
 * **[0x05-processes_and_signals](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x05-processes_and_signals)**: Processes and signals
 * **[0x06-regular_expressions](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x06-regular_expressions)**: Regular expressions
+* **[0x07-networking_basics](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x07-networking_basics)**: Networking basics #1
+* **[0x08-networking_basics_2](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x08-networking_basics_2)**: Networking basics #2
