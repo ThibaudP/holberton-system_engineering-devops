@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+ifconfig | grep -Po '(?<=inet addr:)(?:[0-9]{1,3}\.){3}[0-9]{1,3}'
