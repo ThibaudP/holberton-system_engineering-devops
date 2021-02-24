@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
+# Shows all IPs attached to the current machine
+
 ifconfig | grep -Po '(?<=inet addr:)(?:[0-9]{1,3}\.){3}[0-9]{1,3}'
