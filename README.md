@@ -15,3 +15,4 @@ Each subfolder of this repo contains one singular project comprised of multiple 
 * **[0x06-regular_expressions](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x06-regular_expressions)**: Regular expressions
 * **[0x07-networking_basics](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x07-networking_basics)**: Networking basics #1
 * **[0x08-networking_basics_2](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x08-networking_basics_2)**: Networking basics #2
+* **[0x09-web_infrastructure_design](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x09-web_infrastructure_design)**: Intro to web infrastructure design
