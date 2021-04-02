@@ -1,0 +1,10 @@
+# Add correct flags in ssh config
+
+file_line { 'ssh config IdentityFile':
+path =>   '/etc/ssh/ssh_config',
+line =>   'IdentityFile ~/.ssh/holberton',
+}
+file_line {'ssh remove password authentication':
+path =>   '/etc/ssh/ssh_config',
+line =>   'PasswordAuthentication no',
+}
