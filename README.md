@@ -16,3 +16,5 @@ Each subfolder of this repo contains one singular project comprised of multiple 
 * **[0x07-networking_basics](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x07-networking_basics)**: Networking basics #1
 * **[0x08-networking_basics_2](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x08-networking_basics_2)**: Networking basics #2
 * **[0x09-web_infrastructure_design](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x09-web_infrastructure_design)**: Intro to web infrastructure design
+* **[0x0A-configuration_management](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x0A-configuration_management)**: Intro to configuration management & Puppet
+* **[0x0B-ssh](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x0B-ssh)**: Intro to SSH
