@@ -1,4 +1,0 @@
-IdentityFile ~/.ssh/holberton
-PasswordAuthentication no
-	IdentityFile ~/.ssh/holberton
-	PasswordAuthentication no
