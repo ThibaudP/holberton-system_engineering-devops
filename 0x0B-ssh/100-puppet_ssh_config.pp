@@ -1,6 +1,14 @@
 # Add correct flags in ssh config
+include stdlib
 
-exec { '/etc/ssh/ssh_config':
-  path    => ['/usr/bin', '/bin'],
-  command => 'echo "IdentityFile ~/.ssh/holberton" >> /etc/ssh/ssh_config; echo "PasswordAuthentication no" >> /etc/ssh/ssh_config',
+file_line {'Turn off passwd auth':
+  ensure => present,
+  path   => '~/.ssh/config',
+  line   => '\tPasswordAuthentication no',
+}
+
+file_line { 'Declare identity file':
+  ensure => present,
+  path   => '~/.ssh/config',
+  line   => '\tIdentityFile ~/.ssh/holberton',
 }
