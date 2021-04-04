@@ -3,11 +3,11 @@ package { 'nginx':
   ensure => installed,
 }
 
-file_line { 'listen to port 80':
-  ensure => 'present',
-  path   => '/etc/nginx/sites-available/default',
-  line   => 'listen 80 default_server'
-}
+# file_line { 'listen to port 80':
+#   ensure => 'present',
+#   path   => '/etc/nginx/sites-available/default',
+#   line   => 'listen 80 default_server'
+# }
 
 file_line { 'nyan cat rewrite rule':
   ensure => 'present',
