@@ -1,6 +1,7 @@
 # Puppet manifest to install nginx
 package { 'nginx':
-  ensure => installed,
+  ensure   => installed,
+  provider => 'apt'
 }
 
 file_line { 'nyan cat rewrite rule':
