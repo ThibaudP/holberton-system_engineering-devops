@@ -16,6 +16,9 @@ file { '/var/www/html/index.nginx-debian.html':
 }
 
 service { 'nginx':
-  ensure  => running,
-  require => Package['nginx'],
+  ensure     => running,
+  enable     => true,
+  hasrestart => true,
+  require    => Package['nginx'],
+  subscribe  => File_line['redirect_me'],
 }
