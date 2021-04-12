@@ -20,4 +20,5 @@ Each subfolder of this repo contains one singular project comprised of multiple 
 * **[0x0B-ssh](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x0B-ssh)**: Intro to SSH
 * **[0x0C-web_server](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x0C-web_server)**: Intro to Nginx
 * **[0x0D-web_stack_debugging_0](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x0D-web_stack_debugging_0)**: Web Stack Debugging #0
+* **[0x0E-web_stack_debugging_1](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x0E-web_stack_debugging_1)**: Web Stack Debugging #1
 * **[0x0F-load_balancer](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x0F-load_balancer)**: Load balancing with HAproxy
