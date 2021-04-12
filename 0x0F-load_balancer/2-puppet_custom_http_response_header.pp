@@ -1,8 +1,13 @@
 # Puppet manifest to add a response header
 
-package {'nginx':
-  ensure => present,
-  name   => 'nginx',
+exec { 'update':
+  command => '/usr/bin/apt-get update',
+}
+
+package { 'nginx':
+  ensure  => installed,
+  name    => 'nginx',
+  require => Exec['update'],
 }
 
 file {'/var/www/html/index.html':
