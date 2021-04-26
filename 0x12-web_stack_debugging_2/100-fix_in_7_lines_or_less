@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Run nginx as nginx
+sudo chown -R nginx:nginx /etc/nginx/nginx.conf
+sudo chmod -R 700 /etc/nginx/nginx.conf
+sudo -u nginx service nginx restart

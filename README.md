@@ -24,3 +24,5 @@ Each subfolder of this repo contains one singular project comprised of multiple 
 * **[0x0E-web_stack_debugging_1](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x0E-web_stack_debugging_1)**: Web Stack Debugging #1
 * **[0x10-https_ssl](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x10-https_ssl)**: Intro to HTTPS & SSL
 * **[0x13-firewall](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x13-firewall)**: Intro to firewalling
+* **[0x12-web_stack_debugging_2](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x12-web_stack_debugging_2)**: Web Stack Debugging #2
+
