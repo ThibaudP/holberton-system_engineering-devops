@@ -5,8 +5,7 @@ import requests
 from sys import argv
 
 
-def main():
-    """main function"""
+if __name__ == "__main__":
     if len(argv) == 2:
         n = argv[1]
 
@@ -29,7 +28,3 @@ def main():
                                                              len(todo)))
         for task in completed:
             print("\t {}".format(task.get('title')))
-
-
-if __name__ == "__main__":
-    main()
