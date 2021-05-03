@@ -23,7 +23,7 @@ def main():
     taskList = []
     for task in todo:
         formattedTask = {"task": task['title'], "completed": task['completed'],
-                         "username": user['name']}
+                         "username": user['username']}
         taskList.append(formattedTask)
 
     taskDict = {argv[1]: taskList}
