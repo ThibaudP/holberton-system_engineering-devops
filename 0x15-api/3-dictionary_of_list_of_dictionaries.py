@@ -25,7 +25,7 @@ def main():
         for task in todo:
             formattedTask = {"task": task['title'],
                              "completed": task['completed'],
-                             "username": user['name']}
+                             "username": user['username']}
             # print(formattedTask)
             taskList.append(formattedTask)
         masterDict.update({user['id']: taskList})
