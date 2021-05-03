@@ -21,7 +21,7 @@ def main():
     todo = json.loads(todoReq.text)
 
     with open("{:s}.csv".format(argv[1]), "w") as file_:
-        writer = csv.writer(file_)
+        writer = csv.writer(file_, quoting=csv.QUOTE_ALL)
         for task in todo:
             writer.writerow(
                 [argv[1], user.get('name'), task.get('completed'),
