@@ -7,7 +7,7 @@ from sys import argv
 
 def main():
     """main function"""
-    if len(argv) < 2:
+    if len(argv)!= 2:
         return
 
     userUrl = "https://jsonplaceholder.typicode.com/users/{}".format(argv[1])
