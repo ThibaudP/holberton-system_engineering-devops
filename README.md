@@ -26,4 +26,4 @@ Each subfolder of this repo contains one singular project comprised of multiple 
 * **[0x12-web_stack_debugging_2](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x12-web_stack_debugging_2)**: Web Stack Debugging #2
 * **[0x13-firewall](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x13-firewall)**: Intro to firewalling
 * **[0x14-mysql](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x14-mysql)**: MySQL Primary/Replica configuration
-
+* **[0x15-api](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x15-api)**: API
