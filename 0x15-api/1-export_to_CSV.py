@@ -24,7 +24,7 @@ def main():
         writer = csv.writer(file_, quoting=csv.QUOTE_ALL)
         for task in todo:
             writer.writerow(
-                [argv[1], user.get('name'), task.get('completed'),
+                [argv[1], user.get('username'), task.get('completed'),
                  task.get('title')])
 
 
