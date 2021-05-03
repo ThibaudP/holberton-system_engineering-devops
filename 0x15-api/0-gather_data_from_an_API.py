@@ -26,8 +26,8 @@ def main():
             numComplete += 1
 
     print("Employee {} is done with tasks({}/{})".format(user['name'],
-                                                          numComplete,
-                                                          numTasks))
+                                                         numComplete,
+                                                         numTasks))
     for task in todo:
         if task['completed']:
             print("\t {}".format(task['title']))
