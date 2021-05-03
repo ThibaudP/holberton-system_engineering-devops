@@ -20,11 +20,12 @@ def main():
     todoReq = requests.get(todoUrl)
     todo = json.loads(todoReq.text)
 
-    with open("{:s}.csv".format(argv[1]), "w") as file:
-        writer = csv.writer(file)
+    with open("{:s}.csv".format(argv[1]), "w") as file_:
+        writer = csv.writer(file_)
         for task in todo:
             writer.writerow(
-                [argv[1], user['name'], task['completed'], task['title']])
+                [argv[1], user.get('name'), task.get('completed'),
+                 task.get('title')])
 
 
 if __name__ == "__main__":
