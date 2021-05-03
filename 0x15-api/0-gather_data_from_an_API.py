@@ -7,7 +7,7 @@ from sys import argv
 
 def main():
     """main function"""
-    if len(argv)!= 2:
+    if len(argv) != 2:
         return
 
     userUrl = "https://jsonplaceholder.typicode.com/users/{}".format(argv[1])
@@ -22,15 +22,15 @@ def main():
     numTasks = len(todo)
     numComplete = 0
     for task in todo:
-        if task['completed']:
+        if task.get('completed'):
             numComplete += 1
 
-    print("Employee {} is done with tasks({}/{})".format(user['name'],
+    print("Employee {} is done with tasks({}/{})".format(user.get('name'),
                                                          numComplete,
                                                          numTasks))
     for task in todo:
-        if task['completed']:
-            print("\t {}".format(task['title']))
+        if task.get('completed'):
+            print("\t {}".format(task.get('title')))
 
 
 if __name__ == "__main__":
