@@ -8,7 +8,6 @@ from sys import argv
 def main():
     """main function"""
     if len(argv) == 2:
-
         n = argv[1]
 
         userUrl = "https://jsonplaceholder.typicode.com/users/{}".format(n)
@@ -16,9 +15,9 @@ def main():
             n)
 
         userReq = requests.get(userUrl)
-        user = json.loads(userReq.text)
+        user = userReq.json()
         todoReq = requests.get(todoUrl)
-        todo = json.loads(todoReq.text)
+        todo = todoReq.json()
 
         completed = []
         for task in todo:
