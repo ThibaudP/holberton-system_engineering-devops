@@ -7,29 +7,28 @@ from sys import argv
 
 def main():
     """main function"""
-    if len(argv) != 2:
-        return
+    if len(argv) == 2:
 
-    userUrl = "https://jsonplaceholder.typicode.com/users/{}".format(argv[1])
-    todoUrl = "https://jsonplaceholder.typicode.com/users/{}/todos".format(
-        argv[1])
+        n = argv[1]
 
-    userReq = requests.get(userUrl)
-    user = json.loads(userReq.text)
-    todoReq = requests.get(todoUrl)
-    todo = json.loads(todoReq.text)
+        userUrl = "https://jsonplaceholder.typicode.com/users/{}".format(n)
+        todoUrl = "https://jsonplaceholder.typicode.com/users/{}/todos".format(
+            n)
 
-    numTasks = len(todo)
-    numComplete = 0
-    for task in todo:
-        if task.get('completed'):
-            numComplete += 1
+        userReq = requests.get(userUrl)
+        user = json.loads(userReq.text)
+        todoReq = requests.get(todoUrl)
+        todo = json.loads(todoReq.text)
 
-    print("Employee {} is done with tasks({}/{})".format(user.get('name'),
-                                                         numComplete,
-                                                         numTasks))
-    for task in todo:
-        if task.get('completed'):
+        completed = []
+        for task in todo:
+            if task.get('completed'):
+                completed.append(task)
+
+        print("Employee {} is done with tasks({}/{})".format(user.get('name'),
+                                                             len(completed),
+                                                             len(todo)))
+        for task in completed:
             print("\t {}".format(task.get('title')))
 
 
