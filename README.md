@@ -27,3 +27,4 @@ Each subfolder of this repo contains one singular project comprised of multiple 
 * **[0x13-firewall](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x13-firewall)**: Intro to firewalling
 * **[0x14-mysql](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x14-mysql)**: MySQL Primary/Replica configuration
 * **[0x15-api](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x15-api)**: API
+* **[0x16-api_advanced](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x16-api_advanced)**: API (advanced)
