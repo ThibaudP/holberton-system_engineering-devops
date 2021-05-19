@@ -28,4 +28,5 @@ Each subfolder of this repo contains one singular project comprised of multiple 
 * **[0x14-mysql](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x14-mysql)**: MySQL Primary/Replica configuration
 * **[0x15-api](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x15-api)**: API
 * **[0x16-api_advanced](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x16-api_advanced)**: API (advanced)
+* **[0x17-web_stack_debugging_3](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x17-web_stack_debugging_3)**: Web Stack Debugging #3
 * **[0x18-webstack_monitoring](https://github.com/ThibaudP/holberton-system_engineering-devops/tree/main/0x18-webstack_monitoring)**: Webstack Monitoring
