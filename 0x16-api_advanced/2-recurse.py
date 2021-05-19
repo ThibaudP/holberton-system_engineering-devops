@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """
-    request api reddit and return a list of all
-    hot article recursively
+    task 2 done recursively
 """
 import requests
 
@@ -18,8 +17,8 @@ def recurse(subreddit, hot_list=[], after='t3_'):
     elif after == 'null' or after is None:
         return
     else:
-        for element in result.json()['data']['children']:
-            hot_list.append(element['data']['title'])
+        for child in result.json()['data']['children']:
+            hot_list.append(child['data']['title'])
         after = result.json()['data']['after']
         recurse(subreddit, hot_list, after)
         return hot_list
