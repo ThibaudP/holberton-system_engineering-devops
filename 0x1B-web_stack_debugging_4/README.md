@@ -1,4 +1,4 @@
-# 0x1A-web_stack_debugging_4
+# 0x1B-web_stack_debugging_4
 
 ## Background context
 The Webstack debugging series will train you in the art of debugging. Computers and software rarely work the way we want (that’s the “fun” part of the job!).
